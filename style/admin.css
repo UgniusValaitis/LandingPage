@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --prime-color: #3a1500;
+  --sec-color: #542911;
+  --com-color: #00203a;
+}
+
+.delBtn {
+  background: #d80303;
+  color: #fff;
+  padding: 3px;
+  border: none;
+  border-radius: 5px;
+}
+.delBtn:hover {
+  border: #000 1px solid;
+}
+
+.adBtn {
+  background: var(--sec-color);
+  color: #fff;
+  padding: 5px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+.adBtn:hover {
+  background: #fff;
+  color: var(--sec-color);
+}
+
+.photo {
+  max-width: 50px;
+}
+
+/* LOG IN STYLES */
+.adminLog {
+  width: 100vw;
+  height: 100vh;
+}
+
+.formLog {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.formLog form input {
+  display: block;
+  text-align: center;
+  margin: 5px auto;
+}
+
+/* MAIN BODY FORMAT  */
+.greet p,
+.greet h3 {
+  text-align: center;
+}
+
+.mainForm {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.mainForm textarea {
+  display: block;
+  width: 100%;
+  max-width: 530px;
+  height: 50px;
+  margin: auto;
+}
+
+.mainForm input,
+.mainForm select {
+  display: block;
+  width: 100%;
+  max-width: 150px;
+  margin: auto;
+}
+
+/* MAIN LIST OF CONTENT */
+
+div.post {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  border-bottom: var(--prime-color) 2px solid;
+  max-width: 530px;
+  margin: auto;
+}
